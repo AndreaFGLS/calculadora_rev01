@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+    <!-- Adicione aqui seus scripts para testar -->
+    <script type="text/javascript" src="calculadora.js"></script>
+</head>
+<body>
+    <div class="calculadora">
+        <input type="text" id="resultado" />
+
+        <button class="numero" onclick="valorClicado(this)">9</button>
+        <button class="numero" onclick="valorClicado(this)">8</button>
+        <button class="numero" onclick="valorClicado(this)">7</button>
+        <button class="operacao somar" onclick="operadorClicado(this)">+</button>
+        
+        <button class="numero" onclick="valorClicado(this)">6</button>
+        <button class="numero" onclick="valorClicado(this)">5</button>
+        <button class="numero" onclick="valorClicado(this)">4</button>
+        <button class="operacao subtrair" onclick="operadorClicado(this)">-</button>
+        
+        <button class="numero" onclick="valorClicado(this)">3</button>
+        <button class="numero" onclick="valorClicado(this)">2</button>
+        <button class="numero" onclick="valorClicado(this)">1</button>
+        <button class="operacao multiplicar" onclick="operadorClicado(this)">*</button>
+        
+        <button class="numero" onclick="valorClicado(this)">0</button>
+        <button class="numero" onclick="valorClicado(this)">.</button>
+        <button class="resultar" onclick="valorIgual(this)">=</button>
+        <button class="operacao dividir" onclick="operadorClicado(this)">/</button>
+    </div>
+</body>
+</html>
